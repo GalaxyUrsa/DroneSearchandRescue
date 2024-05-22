@@ -1,9 +1,7 @@
 Drone and Rescue v1.0
 Release in May 22nd
 ==============================================
-/************系统概要************/
-
-/************配置、部署及使用步骤************/
+######配置、部署及使用步骤
 1)安装Python编译器(基于Anaconda/Miniconda)
 conda create -n Drone python=3.9
 2)进入Drone环境
@@ -19,8 +17,7 @@ python main.py
 cd ~/FlaskDemo
 python app.py
 
-
-/************目录结构描述************/
+######目录结构描述
 Drone                     //无人机辅助搜救系统
 ├── Background            //系统后端代码
 │   ├── graphics          //图形处理
@@ -38,7 +35,7 @@ Drone                     //无人机辅助搜救系统
 ├── LICENSE               //项目需遵循的开源协议
 └── ReadMe.txt            //项目概述、安装与配置说明、使用指南
 
-/************LICENSE************/
+######Lisence
 DroneSearchandRescue is licenced under GPLv3.
 
 The source of target Detection part is from https://github.com/ultralytics/yolov5/.
