@@ -1,25 +1,19 @@
-Drone and Rescue v1.0
-Release in May 23rd
-系统概要
-配置、部署及使用步骤
-安装Python编译器(基于Anaconda/Miniconda)
-bash
-conda create -n Drone python=3.9
-进入Drone环境
-bash
+Drone and Rescue v1.0<br>
+Release in May 23rd<br>
+系统概要<br>
+配置、部署及使用步骤<br>
+安装Python编译器(基于Anaconda/Miniconda)<br>
+conda create -n Drone python=3.9<br>
+进入Drone环境<br>
 conda activate Drone
 进入Drone根目录
-bash
 cd ~/Drone
 安装所依赖的Python包
-bash
 pip install -r requirements.txt
 检测后端代码是否可正常运行
-bash
 cd ~/Background  
 python main.py
 检测前后端代码是否可正常连接并运行
-bash
 cd ~/FlaskDemo  
 python app.py
 目录结构描述
