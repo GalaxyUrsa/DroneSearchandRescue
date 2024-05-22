@@ -1,5 +1,5 @@
 Drone and Rescue v1.0<br>
-Release in May 23rd<br>
+Release on May 23rd<br>
 
 ---
 I 配置、部署及使用步骤<br>
