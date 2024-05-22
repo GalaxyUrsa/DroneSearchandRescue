@@ -3,7 +3,9 @@ Release in May 22nd
 ---
 ######配置、部署及使用步骤
 1)安装Python编译器(基于Anaconda/Miniconda)
+'''python
 conda create -n Drone python=3.9
+'''
 2)进入Drone环境
 conda activate Drone
 3)进入Drone根目录
