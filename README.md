@@ -1,9 +1,10 @@
-Drone and Rescue v1.0<br>
-Release on May 23rd<br>
----
 Current Version
 Drone and Rescue v1.1<br>
 Release on May 29th<br>
+---
+History:
+Drone and Rescue v1.0<br>
+Release on May 23rd<br>
 
 ---
 I 配置、部署及使用步骤<br>
