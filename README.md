@@ -27,11 +27,13 @@ python app.py<br>
 II 目录结构描述<br>
 Drone                     //无人机辅助搜救系统<br>
 ├── Background            //系统后端代码<br>
+│   ├── conf              //Nginx配置<br>
 │   ├── graphics          //图形处理<br>
-│   ├── lmageEnhancement  //图像增强<br>
+│   ├── ImageEnhancement  //图像增强(更新中)<br>
 │   ├── logs              //日志记录<br>
 │   ├── models            //目标检测模型<br>
-│   ├── Nginx             //基于Nginx的反向代理服务器<br>
+│   ├── RTMP              //基于Nginx的反向代理服务器<br>
+│   ├── utils             //YOLOv5目标检测网络所需插件(来源于yolov5源码)<br>
 │   ├── weights           //图像增强网络、目标检测网络权重<br>
 │   ├── main.py           //后端处理主函数<br>
 │   └── Detect_RTMP.py    //检测RTMP视频流数据<br>
