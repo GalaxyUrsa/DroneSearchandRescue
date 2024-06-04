@@ -48,4 +48,4 @@ Drone                     //无人机辅助搜救系统<br>
 LICENSE<br>
 DroneSearchandRescue is licenced under GPLv3.<br>
 The source of target Detection part is from https://github.com/ultralytics/yolov5/.<br>
-Copyright © 2024 by Jianheng Huang, Ruoling Lai, Yunqing Wang.<br>
+Copyright © 2024 by Jianheng Huang, Yunqing Wang, Ruoling Lai.<br>
