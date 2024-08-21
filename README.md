@@ -1,8 +1,11 @@
 Current Version:<br>
-Drone and Rescue v1.1<br>
-Release on May 29th<br>
+Drone and Rescue v1.2<br>
+Release on Aug 21st<br>
 ---
 History:<br>
+
+Drone and Rescue v1.1<br>
+Release on May 29th<br>
 Drone and Rescue v1.0<br>
 Release on May 23rd<br>
 
@@ -29,13 +32,14 @@ Drone                     //无人机辅助搜救系统<br>
 ├── Background            //系统后端代码<br>
 │   ├── conf              //Nginx配置<br>
 │   ├── graphics          //图形处理<br>
-│   ├── ImageEnhancement  //图像增强(更新中)<br>
+│   ├── ImageEnhancement  //图像增强(更新中，如运行不成功请自行在main.py与YOLOv5_RTMP.py文件中注释用于import模块的语句)<br>
 │   ├── logs              //日志记录<br>
 │   ├── models            //目标检测模型<br>
-│   ├── RTMP              //基于Nginx的反向代理服务器<br>
+│   ├── RTMP              //基于Nginx的反向代理服务器(请自行解压)<br>
 │   ├── utils             //YOLOv5目标检测网络所需插件(来源于yolov5源码)<br>
-│   ├── weights           //图像增强网络、目标检测网络权重<br>
+│   ├── weights           //图像增强网络、目标检测网络权重(权重请自行准备，可以使用已经训练好的yolov5n/s/m/l.pt等权重，权重在YOLOv5_RTMP.py文件中修改)<br>
 │   ├── main.py           //后端处理主函数<br>
+│   ├── temp              //自行创建temp文件夹，并建子文件夹hls，否则无法运行<br>
 │   └── Detect_RTMP.py    //检测RTMP视频流数据<br>
 ├── FlaskDemo             //基于Flask框架的前端测试用例<br>
 │   ├── view.html         //生成特定内容的网页模板<br>
