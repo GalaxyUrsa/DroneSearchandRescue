@@ -37,7 +37,7 @@ Drone                     //无人机辅助搜救系统<br>
 │   ├── models            //目标检测模型<br>
 │   ├── RTMP              //基于Nginx的反向代理服务器(请自行解压)<br>
 │   ├── utils             //YOLOv5目标检测网络所需插件(来源于yolov5源码)<br>
-│   ├── weights           //图像增强网络、目标检测网络权重(权重请自行准备，可以使用已经训练好的yolov5n/s/m/l.pt等权重，权重在YOLOv5_RTMP.py文件中修改)<br>
+│   ├── weights           //图像增强网络、目标检测网络权重(权重请自行准备，可以使用公开的yolov5n/s/m/l.pt等，在YOLOv5_RTMP.py文件中修改)<br>
 │   ├── main.py           //后端处理主函数<br>
 │   ├── temp              //自行创建temp文件夹，并建子文件夹hls，否则无法运行<br>
 │   └── Detect_RTMP.py    //检测RTMP视频流数据<br>
@@ -46,6 +46,7 @@ Drone                     //无人机辅助搜救系统<br>
 │   └── app.py            //启动测试用例<br>
 ├── requirements.txt      //项目所依赖的Python包及版本<br>
 ├── LICENSE               //项目需遵循的开源协议<br>
+├── font.ttf              //项目需使用一种字体，需自行准备(font替换成自己的文件名)<br>
 └── ReadMe.txt            //项目概述、安装与配置说明、使用指南<br>
 
 ---
