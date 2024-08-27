@@ -24,8 +24,8 @@ pip install -r requirements.txt<br>
 cd ~/Background<br>
 python main.py<br>
 6)Verify that background code is connected and running properly<br>
-python app.py<br>
-<br>
+python app.py<br><br>
+
 ---
 II 目录结构描述<br>
 Drone                     //无人机辅助搜救系统<br>
@@ -47,8 +47,8 @@ Drone                     //无人机辅助搜救系统<br>
 ├── requirements.txt      //项目所依赖的Python包及版本<br>
 ├── LICENSE               //项目需遵循的开源协议<br>
 ├── font.ttf              //项目需使用一种字体，需自行准备(font替换成自己的文件名)<br>
-└── ReadMe.txt            //项目概述、安装与配置说明、使用指南<br>
-<br>
+└── ReadMe.txt            //项目概述、安装与配置说明、使用指南<br><br>
+
 ---
 I 配置、部署及使用步骤<br>
 1)安装Python编译器(基于Anaconda/Miniconda)<br>
@@ -64,8 +64,8 @@ cd ~/Background<br>
 python main.py<br>
 6)检测前后端代码是否可正常连接并运行<br>
 cd ~/FlaskDemo<br>
-python app.py<br>
-<br>
+python app.py<br><br>
+
 ---
 II 目录结构描述<br>
 Drone                     //无人机辅助搜救系统<br>
@@ -87,8 +87,8 @@ Drone                     //无人机辅助搜救系统<br>
 ├── requirements.txt      //项目所依赖的Python包及版本<br>
 ├── LICENSE               //项目需遵循的开源协议<br>
 ├── font.ttf              //项目需使用一种字体，需自行准备(font替换成自己的文件名)<br>
-└── ReadMe.txt            //项目概述、安装与配置说明、使用指南<br>
-<br>
+└── ReadMe.txt            //项目概述、安装与配置说明、使用指南<br><br>
+
 ---
 LICENSE<br>
 DroneSearchandRescue is licenced under GPLv3.<br>
