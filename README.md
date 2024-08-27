@@ -11,19 +11,19 @@ Drone Search and Rescue v1.0<br>
 Release on May 23rd<br>
 <br>
 ---
-I) Configuration, deployment, and usage procedures<br>
-1) Install the Python compiler (based on Anaconda/Miniconda)<br>
+I Configuration, deployment, and usage procedures<br>
+1)Install the Python compiler (based on Anaconda/Miniconda)<br>
 conda create -n Drone python=3.9<br>
-2) Enter the Drone environment<br>
+2)Enter the Drone environment<br>
 conda activate Drone<br>
-3) Enter the root of the project<br>
+3)Enter the root of the project<br>
 cd ~/Drone<br>
-4) Install the required package<br>
+4)Install the required package<br>
 pip install -r requirements.txt<br>
-5) Verify the background code<br>
+5)Verify the background code<br>
 cd ~/Background<br>
 python main.py<br>
-6) Verify that background code is connected and running properly<br>
+6)Verify that background code is connected and running properly<br>
 python app.py<br>
 <br>
 ---
