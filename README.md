@@ -1,6 +1,7 @@
 Current Version:<br>
 Drone and Rescue v1.2<br>
 Release on Aug 21st<br>
+<br>
 ---
 History:<br>
 
@@ -8,7 +9,7 @@ Drone Search and Rescue v1.1<br>
 Release on May 29th<br>
 Drone Search and Rescue v1.0<br>
 Release on May 23rd<br>
-
+<br>
 ---
 I) Configuration, deployment, and usage procedures<br>
 1) Install the Python compiler (based on Anaconda/Miniconda)<br>
@@ -25,6 +26,7 @@ python main.py<br>
 6) Verify that background code is connected and running properly<br>
 python app.py<br>
 <br>
+---
 II 目录结构描述<br>
 Drone                     //无人机辅助搜救系统<br>
 ├── Background            //系统后端代码<br>
@@ -46,6 +48,7 @@ Drone                     //无人机辅助搜救系统<br>
 ├── LICENSE               //项目需遵循的开源协议<br>
 ├── font.ttf              //项目需使用一种字体，需自行准备(font替换成自己的文件名)<br>
 └── ReadMe.txt            //项目概述、安装与配置说明、使用指南<br>
+<br>
 ---
 I 配置、部署及使用步骤<br>
 1)安装Python编译器(基于Anaconda/Miniconda)<br>
@@ -63,6 +66,7 @@ python main.py<br>
 cd ~/FlaskDemo<br>
 python app.py<br>
 <br>
+---
 II 目录结构描述<br>
 Drone                     //无人机辅助搜救系统<br>
 ├── Background            //系统后端代码<br>
@@ -84,7 +88,7 @@ Drone                     //无人机辅助搜救系统<br>
 ├── LICENSE               //项目需遵循的开源协议<br>
 ├── font.ttf              //项目需使用一种字体，需自行准备(font替换成自己的文件名)<br>
 └── ReadMe.txt            //项目概述、安装与配置说明、使用指南<br>
-
+<br>
 ---
 LICENSE<br>
 DroneSearchandRescue is licenced under GPLv3.<br>
