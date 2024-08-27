@@ -40,14 +40,14 @@ Drone                     //Drone Search and Rescue<br>
 │   ├── weights           //Weights for neural network(Please prepare by yourself and modify its path in YOLOv5_RTMP.py)<br>
 │   ├── main.py           //main function<br>
 │   ├── temp              //Create the temp folder and create a subfolder hls. Otherwise, it cannot run<br>
-│   └── Detect_RTMP.py    //检测RTMP视频流数据<br>
-├── FlaskDemo             //基于Flask框架的前端测试用例<br>
-│   ├── view.html         //生成特定内容的网页模板<br>
-│   └── app.py            //启动测试用例<br>
-├── requirements.txt      //项目所依赖的Python包及版本<br>
-├── LICENSE               //项目需遵循的开源协议<br>
-├── font.ttf              //项目需使用一种字体，需自行准备(font替换成自己的文件名)<br>
-└── ReadMe.txt            //项目概述、安装与配置说明、使用指南<br><br>
+│   └── YOLOv5_RTMP.py    //Detect RTMP stream<br>
+├── FlaskDemo             //Test case based on Flask<br>
+│   ├── view.html         //Display template on HTML<br>
+│   └── app.py            //Test case for application<br>
+├── requirements.txt      //Required package<br>
+├── LICENSE               //License<br>
+├── font.ttf              //The font type you want to display on the panel<br>
+└── ReadMe.txt            //Operating guide<br><br>
 
 ---
 I 配置、部署及使用步骤<br>
