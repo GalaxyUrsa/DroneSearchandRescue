@@ -8,8 +8,8 @@ History:<br>
 Drone Search and Rescue v1.1<br>
 Release on May 29th<br>
 Drone Search and Rescue v1.0<br>
-Release on May 23rd<br>
-<br>
+Release on May 23rd<br><br>
+
 ---
 I Configuration, deployment, and usage procedures<br>
 1)Install the Python compiler (based on Anaconda/Miniconda)<br>
