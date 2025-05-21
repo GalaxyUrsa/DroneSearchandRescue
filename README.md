@@ -6,7 +6,6 @@
 - Release on May 29th
 ### Drone Search and Rescue v1.0
 - Release on May 23rd
-
 ---
 # I. Configuration, deployment, and usage procedures
 
@@ -26,23 +25,22 @@ cd ~/Drone
 ```bash
 pip install -r requirements.txt
 ```
-### (5) Verify the background code
+### (5) Verify the back-end code
 ```
 cd ~/Background
 ```
 ```bash
 python main.py
 ```
-### (6) Verify that background code is connected and running properly
+### (6) Verify that back-end code is connected and running properly
 ```bash
 python app.py
 ```
-
 ---
 # II. Directory Structure
 ```
 Drone                     //Drone Search and Rescue
-├── Background            //Background Code
+├── Background            //Back-end Code
 │   ├── conf              //Configuration of Nginx
 │   ├── graphics          //Process graphics
 │   ├── ImageEnhancement  //Image enhancement(Updating now. Please delete the relevant code in main.py and YOLOv5_RTMP.py)
@@ -62,7 +60,6 @@ Drone                     //Drone Search and Rescue
 ├── font.ttf              //The font type you want to display on the panel
 └── ReadMe.txt            //Operating guide
 ```
-
 ---
 # I. 配置、部署及使用步骤
 
@@ -93,8 +90,6 @@ python main.py
 ```bash
 python app.py
 ```
-
-
 ---
 # II. 目录结构描述
 ```
@@ -124,3 +119,9 @@ Drone                     //无人机辅助搜救系统
 - DroneSearchandRescue is licenced under GPLv3.
 - The source of target Detection part is from https://github.com/ultralytics/yolov5/.
 - Copyright © 2024 by Jianheng Huang, Yunqing Wang, Ruoling Lai.
+---
+# Contact Us
+- Email: [jianhenghuang26@gmail.com](jianhenghuang26@gmail.com)
+- We completed this project at Wuhan University of Technology during 2023-2024.
+- This project is the source code for us to participate in the competition. We only released the back-end part and part of the code based on the Flask framework. Due to the large amount of work, we did not release the front-end part.
+- I would like to thank team members Yunqing Wang and Ruoling Lai for their contributions and support. 
