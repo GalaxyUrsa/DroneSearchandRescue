@@ -122,6 +122,8 @@ Drone                     //无人机辅助搜救系统
 ---
 # Contact Us
 - Email: [jianhenghuang26@gmail.com](jianhenghuang26@gmail.com)
-- We completed this project at Wuhan University of Technology during 2023-2024.
+---
+# Acknowledgement
 - This project is the source code for us to participate in the competition. We only released the back-end part and part of the code based on the Flask framework. Due to the large amount of work, we did not release the front-end part.
-- I would like to thank team members Yunqing Wang and Ruoling Lai for their contributions and support. 
+- I would like to thank team members Yunqing Wang and Ruoling Lai for their contributions and support.
+- We completed this project at Wuhan University of Technology during 2023-2024.
