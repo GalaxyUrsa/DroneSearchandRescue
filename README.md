@@ -1,8 +1,6 @@
 # Current Version:
 ### Drone and Rescue v1.2
 - Release on Aug 21st
-<br>
----
 # History:
 ### Drone Search and Rescue v1.1
 - Release on May 29th
